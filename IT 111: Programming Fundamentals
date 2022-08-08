@@ -1,0 +1,31 @@
+#IT 111: Programming Fundamentals
+
+#1. Introduction to Python _ Instructor: Kyrrah Nork_Summer 2022
+
+    #1.12.1: zyLab training: Basics
+userNum = int(input())
+userNumSquared = userNum + userNum   # Bug here; fix it when instructed
+   
+print(userNumSquared)       # Output formatting issue here; fix it when instructed
+
+
+    #1.13.1: zyLab training: Interleaved input / output
+print('Enter x: ')
+x = int(input())
+print('x doubled is:', (2 * x))
+
+
+    #1.14.1: zyLab training*: One large program
+print("Step 1 complete")
+print("Step 2 as well")
+print("All steps now complete")
+
+
+    #1.17 LAB: Input: Welcome message
+    #Write a program that takes a first name as the input, and outputs a welcome message to that name.
+    #Ex: If the input is Pat, the output is:
+user_name = input()
+
+message = (f'Hello {user_name} and welcome to CS Online!')
+print(message)
+
